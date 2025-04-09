@@ -1,0 +1,42 @@
+{
+  "automaticCasing": true,
+  "version": 2,
+  "layers": [
+    {
+      "groupName": "damorweir",
+      "name": "damorweirpoint",
+      "properties": [
+        {
+          "name": "beginLifespanVersion"
+        },
+        {
+          "name": "condition"
+        },
+        {
+          "name": "localId"
+        },
+        {
+          "name": "namespace"
+        }
+      ]
+    },
+    {
+      "groupName": "damorweir",
+      "name": "damorweirline",
+      "properties": [
+        {
+          "name": "beginLifespanVersion"
+        },
+        {
+          "name": "condition"
+        },
+        {
+          "name": "localId"
+        },
+        {
+          "name": "namespace"
+        }
+      ]
+    }
+  ]
+}

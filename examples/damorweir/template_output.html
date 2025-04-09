@@ -1,0 +1,51 @@
+/* MapServer Template */
+<html>
+<head>
+    <title>GetFeatureInfo output</title>
+</head>
+<style type="text/css">table.featureInfo, table.featureInfo td, table.featureInfo th { border: 1px solid #ddd; border-collapse: collapse; margin: 0; padding: 0; font-size: 90%; padding: .2em .1em; } table.featureInfo th { padding: .2em .2em; font-weight: bold; background: #eee; } table.featureInfo td { background: #fff; } table.featureInfo tr.odd td { background: #eee; } table.featureInfo caption { text-align: left; font-size: 100%; font-weight: bold; padding: .2em .2em; }</style>
+<body>
+
+[resultset layer=damorweirpoint]
+<table class="featureInfo">
+    <caption class="featureInfo">damorweir</caption>
+    <tr>
+        <th>beginlifespanversion</th>
+        <th>condition</th>
+        <th>localid</th>
+        <th>namespace</th>
+    </tr>
+    [feature]
+    <tr>
+        <td>[beginLifespanVersion]</td>
+        <td>[condition]</td>
+        <td>[localId]</td>
+        <td>[namespace]</td>
+    </tr>
+    [/feature]
+</table>
+[/resultset]
+
+[resultset layer=damorweirline]
+<table class="featureInfo">
+    <caption class="featureInfo">damorweir</caption>
+    <tr>
+        <th>beginlifespanversion</th>
+        <th>condition</th>
+        <th>localid</th>
+        <th>namespace</th>
+    </tr>
+    [feature]
+    <tr>
+        <td>[beginLifespanVersion]</td>
+        <td>[condition]</td>
+        <td>[localId]</td>
+        <td>[namespace]</td>
+    </tr>
+    [/feature]
+</table>
+[/resultset]
+
+</body>
+</html>
+

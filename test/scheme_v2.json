@@ -1,0 +1,168 @@
+{
+  "automaticCasing": true,
+  "version": 2,
+  "layers": [
+    {
+      "name": "drainagebasin",
+      "properties": [
+        {
+          "name": "area"
+        },
+        {
+          "name": "area_uom",
+          "alias": "areaUnitOfMeasure"
+        },
+        {
+          "name": "beginLifespanVersion"
+        },
+        {
+          "name": "localId"
+        },
+        {
+          "name": "namespace"
+        }
+      ]
+    },
+    {
+      "name": "crossing",
+      "properties": [
+        {
+          "name": "beginLifespanVersion"
+        },
+        {
+          "name": "condition"
+        },
+        {
+          "name": "localId"
+        },
+        {
+          "name": "namespace"
+        },
+        {
+          "name": "type"
+        },
+        {
+          "name": "language"
+        },
+        {
+          "name": "text"
+        },
+        {
+          "name": "script"
+        }
+      ]
+    },
+    {
+      "name": "watercourse",
+      "properties": [
+        {
+          "name": "beginLifespanVersion"
+        },
+        {
+          "name": "localId"
+        },
+        {
+          "name": "namespace"
+        },
+        {
+          "name": "delineationKnown"
+        },
+        {
+          "name": "language"
+        },
+        {
+          "name": "text"
+        },
+        {
+          "name": "script"
+        }
+      ]
+    },
+    {
+      "groupName": "damorweir",
+      "name": "damorweirpoint",
+      "properties": [
+        {
+          "name": "beginLifespanVersion"
+        },
+        {
+          "name": "condition"
+        },
+        {
+          "name": "localId"
+        },
+        {
+          "name": "namespace"
+        }
+      ]
+    },
+    {
+      "groupName": "damorweir",
+      "name": "damorweirline",
+      "properties": [
+        {
+          "name": "beginLifespanVersion"
+        },
+        {
+          "name": "condition"
+        },
+        {
+          "name": "localId"
+        },
+        {
+          "name": "namespace"
+        }
+      ]
+    },
+    {
+      "name": "standingwater",
+      "properties": [
+        {
+          "name": "beginLifespanVersion"
+        },
+        {
+          "name": "localId"
+        },
+        {
+          "name": "namespace"
+        }
+      ]
+    },
+    {
+      "groupName": "lock",
+      "name": "lockpoint",
+      "properties": [
+        {
+          "name": "beginLifespanVersion"
+        },
+        {
+          "name": "condition"
+        },
+        {
+          "name": "localId"
+        },
+        {
+          "name": "namespace"
+        }
+      ]
+    },
+    {
+      "groupName": "lock",
+      "name": "lockline",
+      "properties": [
+        {
+          "name": "beginLifespanVersion"
+        },
+        {
+          "name": "condition"
+        },
+        {
+          "name": "localId"
+        },
+        {
+          "name": "namespace"
+        }
+      ]
+    }
+  ]
+}

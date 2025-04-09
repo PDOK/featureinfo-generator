@@ -1,0 +1,27 @@
+{
+  "automaticCasing": true,
+  "version": 2,
+  "layers": [
+    {
+      "name": "drainagebasin",
+      "properties": [
+        {
+          "name": "area"
+        },
+        {
+          "name": "area_uom",
+          "alias": "areaUnitOfMeasure"
+        },
+        {
+          "name": "beginLifespanVersion"
+        },
+        {
+          "name": "localId"
+        },
+        {
+          "name": "namespace"
+        }
+      ]
+    }
+  ]
+}
