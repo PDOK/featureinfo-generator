@@ -37,7 +37,7 @@ import (
 	"strconv"
 	"strings"
 
-	"featureinfo-generator/pkg/types"
+	"github.com/pdok/featureinfo-generator/pkg/types"
 
 	"github.com/iancoleman/strcase"
 )

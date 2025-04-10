@@ -26,9 +26,10 @@ package main
 
 import (
 	"encoding/json"
-	"featureinfo-generator/pkg/types"
 	"os"
 	"testing"
+
+	"github.com/pdok/featureinfo-generator/pkg/types"
 )
 
 func Test_writeHTMLFileV2(t *testing.T) {

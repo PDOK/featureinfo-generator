@@ -1,4 +1,4 @@
-module featureinfo-generator
+module github.com/pdok/featureinfo-generator
 
 go 1.24
 
