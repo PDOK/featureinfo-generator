@@ -11,7 +11,7 @@ COPY . .
 ENV CGO_ENABLED=0
 ENV GOOS=linux
 ENV GOARCH=amd64
-RUN go test -short && \
+RUN go test ./... -covermode=atomic -short && \
     go build -a -o /featureinfo-generator cmd/main.go
 
 # not distroless, sometimes a shell is used with this image
@@ -26,7 +26,7 @@ RUN apk update && apk upgrade && apk add \
 
 WORKDIR /
 ENV PATH=${PATH}:/
-COPY /data /data
+COPY /internal/resources /internal/resources
 COPY --from=build-env  /featureinfo-generator  /
 
 ENTRYPOINT ["/featureinfo-generator"]
