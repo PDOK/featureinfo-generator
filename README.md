@@ -7,7 +7,7 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/pdok/featureinfo-generator.svg)](https://hub.docker.com/r/pdok/featureinfo-generator)
 
 This project creates a HTML document which can be used as a template through Mapserver to create a getFeatureInfo response for the WMS-services.
-Documentation for the usage of template driver output in Mapserver can be found at https://mapserver.org/output/template_output.html#template-driven-output.
+Documentation for the usage of template driven output in Mapserver can be found at https://mapserver.org/output/template_output.html#template-driven-output.
 
 The generated HTML template is configured by a `scheme.json` file. 
 This JSON-file contains the following information:
@@ -40,4 +40,4 @@ Below are two examples of generated HTML output for a given `scheme.json`:
 
 # New builds
 This repository is configured to automatically build and publish a new image for new releases and tags.
-The images can be found at: https://hub.docker.com/repository/docker/pdok/featureinfo-generator/builds
+The images can be found at: https://hub.docker.com/repository/docker/pdok/featureinfo-generator/general
